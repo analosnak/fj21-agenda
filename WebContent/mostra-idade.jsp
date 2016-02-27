@@ -7,6 +7,6 @@
 </head>
 <body>
 	Testando seus parâmetros: <br/>
-	A idade é ${param.idade} .
+	A idade é <%= request.getParameter("idade") %> .
 </body>
 </html>
